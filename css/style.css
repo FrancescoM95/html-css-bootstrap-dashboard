@@ -8,7 +8,7 @@
 /*^ Generics */
 
 img {
-    max-width: 0;
+    max-width: 100%;
     display: block;
 }
 
@@ -22,11 +22,71 @@ ul {
 
 /*^ Utils */
 
+.evidenz {
+    border: 2px solid green;
+}
+
+.evdienz2 {
+    border: 2px dashed blue;
+}
 
 /** header  */
 
+.page-header {
+    height: 60px;
+}
 
-/** main */
+.navbar>.container-fluid {
+    flex-wrap: nowrap;
+}
+
+#small-logo {
+    width: 50px;
+}
+
+/** LOWER CONTENT */
+
+.lower-content {
+    height: calc(100vh - 60px);
+}
+
+/*# LEFT SIDEBAR */
+
+.left-sidebar {
+    background-image: url(../img/sidebar-bg.png);
+    width: 80px;
+    background-color: #051E34;
+}
+
+.left-sidebar a {
+    color: #fff;
+}
+
+/*# main */
+
+main {
+    background-color: khaki;
+}
+
+/*| MAIN HEADER */
+.main-header {
+    background-color: #1B72E8;
+    min-height: 100px;
+}
+
+/*| MAIN CONTENT */
+
 
 
 /** footer */
+
+
+
+
+/*@ RESPONSIVE */
+
+@media screen and (min-width: 992px) {
+    .left-sidebar {
+        width: 150px;
+    }
+}

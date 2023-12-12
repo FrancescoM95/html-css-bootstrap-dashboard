@@ -28,19 +28,118 @@
 <body>
 
     <!--* header -->
-    <header>
+    <header class="page-header">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <div class="box-logo flex-shrink-0 ">
+                    <img src="img/mobile-logo.png" id="small-logo" class="d-lg-none" alt="logo boolean mobile">
+                    <img src="img/logo.svg" id="big-logo" class="d-none d-lg-block" alt="logo boolean">
+                </div>
+                <div class="box-search flex-grow-1 mx-4 mx-lg-5">
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2 flex-grow-1" type="search" placeholder="Search"
+                            aria-label="Search">
+                    </form>
+                </div>
+                <div class="box-link flex-shrink-0">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Link</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Dropdown
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                            </li>
+                        </ul>
 
+                    </div>
+                </div>
+
+            </div>
+        </nav>
     </header>
 
-    <!--* main -->
-    <main>
+    <!--* LOWER CONTENT -->
 
-    </main>
+    <div class="lower-content d-flex">
 
-    <!--* footer -->
-    <footer>
+        <!--# LEFT SIDEBAR -->
+        <div class="left-sidebar d-flex flex-column justify-content-between align-items-center pt-4">
 
-    </footer>
+            <!--| TOP SIDEBAR -->
+            <div class="top-sidebar">
+                <ul class="m-0 p-0">
+                    <li class="mb-2">
+                        <a href="#">
+                            <i class="fa-solid fa-house fa-lg me-3"></i>
+                            <span class="d-none d-lg-inline">Home</span>
+                        </a>
+                    </li>
+                    <li class="mb-2">
+                        <a href="#">
+                            <i class="fa-solid fa-chart-simple fa-lg me-3"></i>
+                            <span class="d-none d-lg-inline">Stats</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa-solid fa-signal me-3"></i>
+                            <span class="d-none d-lg-inline fa-lg">Signal</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <!--| BOTTOM SIDEBAR -->
+            <div class="bottom-sidebar pb-4">
+                <ul class="m-0 p-0">
+                    <li><a href="#"><i class="fa-solid fa-gear fa-lg me-3"></i><span
+                                class="d-none d-lg-inline">Admin</span></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!--# main -->
+        <main class="flex-grow-1 overflow-y-auto">
+
+            <!--| MAIN HEADER -->
+            <header class="main-header">
+                <div class="container-fluid">
+
+                </div>
+
+            </header>
+
+            <!--| MAIN CONTENT -->
+            <div class="main-content">
+
+            </div>
+        </main>
+
+    </div>
 
 </body>
 
