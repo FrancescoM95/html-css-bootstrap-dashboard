@@ -1,0 +1,32 @@
+/*Todo Custom Properties */
+
+/* :root {
+    --primary-color: ;
+} */
+
+
+/*^ Generics */
+
+img {
+    max-width: 0;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/*^ Utils */
+
+
+/** header  */
+
+
+/** main */
+
+
+/** footer */
