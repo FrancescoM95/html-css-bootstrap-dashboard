@@ -7,6 +7,11 @@
 
 /*^ Generics */
 
+body {
+    font-size: 0.8rem;
+}
+
+
 img {
     max-width: 100%;
     display: block;
@@ -23,6 +28,8 @@ ul {
 h1 {
     font-size: 2rem;
     font-weight: 500;
+    display: inline-block;
+    margin-right: 5px;
 }
 
 /*^ Utils */
@@ -35,7 +42,7 @@ h1 {
 /** header  */
 
 .page-header {
-    height: 50px;
+    height: 70px;
 }
 
 .navbar>.container-fluid {
@@ -63,13 +70,12 @@ h1 {
 
 .fa-bell {
     color: #FF8F00;
-
 }
 
 /** LOWER CONTENT */
 
 .lower-content {
-    height: calc(100vh - 50px);
+    height: calc(100vh - 70px);
 }
 
 /*# LEFT SIDEBAR */
@@ -90,19 +96,40 @@ h1 {
 /*| MAIN HEADER */
 .main-header {
     background-color: #1B72E8;
+    padding-right: 70px;
+}
+
+.top-mhead,
+.bottom-mhead {
+    font-weight: 500;
+}
+
+.mid-mhead .badge {
+    font-size: 0.8rem;
 }
 
 .counter {
     font-size: 2rem;
-    font-weight: 500;
 }
 
 /*| MAIN CONTENT */
 
-/** footer */
+/*! TABLE */
 
+th {
+    font-weight: normal;
+}
 
+.class-avatar {
+    height: 25px;
+    border-radius: 50%;
+    display: inline-block;
+}
 
+tbody .btn.btn-outline-secondary {
+    padding: 5px 10px;
+    font-size: 0.8rem;
+}
 
 /*@ RESPONSIVE */
 
