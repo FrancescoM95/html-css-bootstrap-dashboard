@@ -29,8 +29,8 @@
 
     <!--* header -->
     <header class="page-header">
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary h-100">
+            <div class="container-fluid h-100">
                 <div class="box-logo flex-shrink-0 ">
                     <img src="img/mobile-logo.png" id="small-logo" class="d-lg-none" alt="logo boolean mobile">
                     <img src="img/logo.svg" id="big-logo" class="d-none d-lg-block" alt="logo boolean">
@@ -91,22 +91,22 @@
             <!--| TOP SIDEBAR -->
             <div class="top-sidebar">
                 <ul class="m-0 p-0">
-                    <li class="mb-2">
+                    <li class="mb-3">
                         <a href="#">
                             <i class="fa-solid fa-house fa-lg me-3"></i>
                             <span class="d-none d-lg-inline">Home</span>
                         </a>
                     </li>
-                    <li class="mb-2">
+                    <li class="mb-3">
                         <a href="#">
-                            <i class="fa-solid fa-chart-simple fa-lg me-3"></i>
+                            <i class="fa-solid fa-chart-simple fa-xl me-3"></i>
                             <span class="d-none d-lg-inline">Stats</span>
                         </a>
                     </li>
                     <li>
                         <a href="#">
-                            <i class="fa-solid fa-signal me-3"></i>
-                            <span class="d-none d-lg-inline fa-lg">Signal</span>
+                            <i class="fa-solid fa-signal fa-lg me-3"></i>
+                            <span class="d-none d-lg-inline">Signal</span>
                         </a>
                     </li>
                 </ul>
@@ -115,8 +115,11 @@
             <!--| BOTTOM SIDEBAR -->
             <div class="bottom-sidebar pb-4">
                 <ul class="m-0 p-0">
-                    <li><a href="#"><i class="fa-solid fa-gear fa-lg me-3"></i><span
-                                class="d-none d-lg-inline">Admin</span></a>
+                    <li>
+                        <a href="#">
+                            <i class="fa-solid fa-gear fa-lg me-3"></i>
+                            <span class="d-none d-lg-inline">Admin</span>
+                        </a>
                     </li>
                 </ul>
             </div>
@@ -126,8 +129,35 @@
         <main class="flex-grow-1 overflow-y-auto">
 
             <!--| MAIN HEADER -->
-            <header class="main-header">
-                <div class="container-fluid">
+            <header class="main-header text-white py-4">
+                <div class="container-fluid d-md-flex justify-content-between align-items-start">
+                    <div class="top-mhead order-md-1">
+                        <a href="#">Nuovo studente<i class="fas fa-plus"></i></a>
+                    </div>
+
+                    <div class="mid-mhead py-4 py-md-0">
+                        <div class="box-title d-flex align-items-center gap-2">
+                            <h1>Boolean</h1>
+                            <span class="badge rounded-pill badge-header">Piano blaze</span>
+                        </div>
+                        <div class="box-app d-flex align-items-center gap-1">
+                            <span class="badge rounded-pill badge-header">3 app</span>
+                            <i class="fa-solid fa-angles-right fa-xs"></i>
+                            <span class="badge rounded-pill badge-header d-lg-none">
+                                <i class="fas fa-plus fa-xs"></i>
+                            </span>
+                            <span class="badge rounded-pill badge-header d-none d-lg-inline">Boolean mobile app</span>
+                            <span class="badge rounded-pill badge-header d-none d-lg-inline">Boolean web app</span>
+                            <span class="badge rounded-pill badge-header d-none d-lg-inline">Boolean blog app</span>
+                        </div>
+                    </div>
+
+
+                    <div class="bottom-mhead">
+                        <p class="m-0">Studenti online negli ultimi 30 minuti</p>
+                        <span class="counter">125</span>
+                    </div>
+
 
                 </div>
 

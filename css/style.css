@@ -20,24 +20,27 @@ ul {
     list-style-type: none;
 }
 
-/*^ Utils */
-
-.evidenz {
-    border: 2px solid green;
+h1 {
+    font-size: 2rem;
+    font-weight: 500;
 }
 
-.evdienz2 {
-    border: 2px dashed blue;
+/*^ Utils */
+
+.badge-header {
+    background-color: #165BBA;
+    font-weight: 500;
 }
 
 /** header  */
 
 .page-header {
-    height: 60px;
+    height: 50px;
 }
 
 .navbar>.container-fluid {
     flex-wrap: nowrap;
+
 }
 
 #small-logo {
@@ -47,7 +50,7 @@ ul {
 /** LOWER CONTENT */
 
 .lower-content {
-    height: calc(100vh - 60px);
+    height: calc(100vh - 50px);
 }
 
 /*# LEFT SIDEBAR */
@@ -58,7 +61,8 @@ ul {
     background-color: #051E34;
 }
 
-.left-sidebar a {
+.left-sidebar a,
+.main-header a {
     color: #fff;
 }
 
@@ -71,7 +75,11 @@ main {
 /*| MAIN HEADER */
 .main-header {
     background-color: #1B72E8;
-    min-height: 100px;
+}
+
+.counter {
+    font-size: 2rem;
+    font-weight: 500;
 }
 
 /*| MAIN CONTENT */
