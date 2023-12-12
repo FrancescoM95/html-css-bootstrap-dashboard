@@ -40,11 +40,29 @@ h1 {
 
 .navbar>.container-fluid {
     flex-wrap: nowrap;
-
 }
 
 #small-logo {
     width: 50px;
+    transform: translateX(-5px);
+}
+
+.page-header input,
+.page-header .input-group-text {
+    background-color: #E5E5E5;
+}
+
+.box-link .dropdown-menu {
+    transform: translateX(-85%)
+}
+
+.dropdown-toggle::after {
+    display: none;
+}
+
+.fa-bell {
+    color: #FF8F00;
+
 }
 
 /** LOWER CONTENT */
