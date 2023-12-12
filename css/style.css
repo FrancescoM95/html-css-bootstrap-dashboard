@@ -53,7 +53,8 @@ h1 {
 }
 
 .box-link .dropdown-menu {
-    transform: translateX(-85%)
+    transform: translateX(-90%);
+    margin: 0;
 }
 
 .dropdown-toggle::after {
