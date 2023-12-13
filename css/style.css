@@ -39,6 +39,11 @@ h1 {
     font-weight: 500;
 }
 
+.badge,
+.box-link ul {
+    cursor: pointer;
+}
+
 /** header  */
 
 .page-header {
