@@ -26,7 +26,7 @@ ul {
 }
 
 h1 {
-    font-size: 2rem;
+    font-size: calc(1.5rem + 1vw);
     font-weight: 500;
     display: inline-block;
     margin-right: 5px;
@@ -94,6 +94,10 @@ h1 {
     transform: translateX(25%);
 }
 
+.left-sidebar ul li:hover {
+    background-color: #838F9B;
+}
+
 /*# main */
 
 /*| MAIN HEADER */
@@ -112,7 +116,8 @@ h1 {
 }
 
 .counter {
-    font-size: 2rem;
+    font-size: calc(0.7rem + 2vw);
+
 }
 
 /*! OFFCANVAS */
