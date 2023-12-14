@@ -99,7 +99,7 @@ h1 {
     transform: translateX(25%);
 }
 
-.left-sidebar ul li:hover {
+.left-sidebar ul li:hover a {
     background-color: #838F9B;
 }
 
@@ -168,7 +168,7 @@ tbody .btn.btn-outline-secondary {
     }
 
     .table thead th:first-child {
-        width: 45%;
+        width: 44%;
     }
 
     .top-mhead .offcanvas {
